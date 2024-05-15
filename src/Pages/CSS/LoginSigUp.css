@@ -1,0 +1,77 @@
+.loginsignup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: rgb(190, 220, 84);
+    width: 100%;
+    padding-top: 100px;
+}
+
+/* Sign-up container styling */
+.loginsignupcontainer {
+    width: 400px; /* Adjusted width for better responsiveness */
+    height: 500; /* Removed fixed height to allow flexibility */
+    background: rgb(71, 53, 53);
+    margin: auto;
+    padding: 40px 60px;
+    border: 1px solid black;
+
+}
+
+/* Heading style */
+.loginsignupcontainer h1 {
+     
+    font-size: 24px; /* Adjusted font size for better hierarchy */
+    text-align: center;
+}
+
+/* Input fields styling */
+.login-sing-fileds {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Reduced gap for better spacing */
+}
+
+.login-sign-fields input {
+    height: 48px; /* Reduced input height for a cleaner look */
+    padding: 10px; /* Added padding for better input spacing */
+    border: 1px solid #ccc; /* Changed border color to a neutral shade */
+    outline: none;
+    font-size: 16px;
+    color: black;
+    border-radius: 5px; /* Added border radius to input fields */
+    gap: 5px;
+}
+
+/* Button styling */
+.loginsignupcontainer button {
+    background: rebeccapurple;
+    color: aliceblue;
+}
+
+/* Button hover effect */
+.loginsignupcontainer button:hover {
+    background: #b72e2e; /* Darken the button color on hover */
+}
+.loginsignup-login{
+    margin-top: 15px;
+    color: rgb(24, 8, 2);
+    font-size: 18px;
+    font-weight:200;
+    
+
+}
+.loginsignup-login span{
+    color: red;
+    font-weight: 300;
+}
+.loginsingup-aggi{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+    color: black;
+    font-weight: 400;
+
+}
